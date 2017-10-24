@@ -17,4 +17,10 @@ public class BlurController {
              imageView.setEffect(new GaussianBlur(10));
     }
 	
+	@FXML
+	private void handleClose() {
+	
+	        System.exit(0);
+	}
+	
 }
