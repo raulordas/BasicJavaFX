@@ -32,7 +32,7 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
     
     	/**
-    	 * carga el controlador y la vista fxml 
+    	 * carga la vista fxml y opcionalmente un controlador para inicializar algún componente 
     	 */
     	
     	FXMLLoader loader = new FXMLLoader(
@@ -64,7 +64,7 @@ public class Main extends Application {
  */
     	@FXML
         public void initialize() {           
-                 imageView.setEffect(new GaussianBlur(10));
+                 imageView.setEffect(new GaussianBlur(0));
         }
     	
     }
