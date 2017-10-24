@@ -22,7 +22,7 @@ import java.io.IOException;
 
 public class Main extends Application {
 
-	private Pane mypane;
+	private AnchorPane mypane;
 	
 	/**
 	 * crea el Stage
@@ -40,8 +40,8 @@ public class Main extends Application {
                 "forest.fxml"
             )
         );
-    	loader.setController(new SetBlur());
-        mypane = (Pane) loader.load();
+//    	loader.setController(new SetBlur());
+        mypane = (AnchorPane) loader.load();
 
         /**
          * titula y coloca la escena en el stage
@@ -51,10 +51,12 @@ public class Main extends Application {
         stage.show();
     }
    
+
+    	
     /**
      * la clase controladora que añade un efecto a la imagen
      */
-    class SetBlur {
+    private class SetBlur {
     	
     	@FXML
         private ImageView imageView;       
@@ -69,6 +71,10 @@ public class Main extends Application {
     	
     }
    
+
+    
+
+
     /**
      * arranca la aplicación
      * @param args
