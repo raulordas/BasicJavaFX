@@ -9,7 +9,7 @@
   <children>
     <ImageView fx:id="imageView" fitHeight="224.0" fitWidth="400.0" layoutX="29.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@blueforest.jpg" />
+            <Image url="@img/blueforest.jpg" />
          </image>
     </ImageView>
       <Button layoutX="389.0" layoutY="263.0" mnemonicParsing="false" text="Go!" />

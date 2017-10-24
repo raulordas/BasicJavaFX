@@ -37,7 +37,7 @@ public class Main extends Application {
     	
     	FXMLLoader loader = new FXMLLoader(
             getClass().getResource(
-                "forest.fxml"
+                "../view/forest.fxml"
             )
         );
     	loader.setController(new SetBlur());
@@ -64,7 +64,7 @@ public class Main extends Application {
  */
     	@FXML
         public void initialize() {           
-                 imageView.setEffect(new GaussianBlur(0));
+                 imageView.setEffect(new GaussianBlur(10));
         }
     	
     }
