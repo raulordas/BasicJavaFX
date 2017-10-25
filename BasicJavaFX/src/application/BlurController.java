@@ -13,10 +13,6 @@ public class BlurController {
     private ImageView imageView;   
 	private Ellipse ellipse;
 
-/**
-* inicializa al igual que el constructor pero permite acceder al componente imageView ya creado en fxml
-*/
-	
 	
 	@FXML
     public void setclip() {           
@@ -35,9 +31,9 @@ public class BlurController {
 //      ellipse.radiusYProperty().bind(root.heightProperty().multiply(0.6));
         
         imageView.setClip(ellipse);
-
-//apply a shadow effect.
-        imageView.setEffect(new DropShadow(120, Color.BLACK));
+//
+////apply a shadow effect.
+//        imageView.setEffect(new DropShadow(1200, Color.BLACK));
 
     }
 
