@@ -12,6 +12,6 @@
             <Image url="@img/blueforest.jpg" />
          </image>
     </ImageView>
-      <Button layoutX="389.0" layoutY="263.0" mnemonicParsing="false" styleClass="mybutton" stylesheets="@../application/application.css" text="Go!" />
+      <Button layoutX="377.0" layoutY="243.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="56.0" styleClass="mybutton" stylesheets="@../application/application.css" />
   </children>
 </AnchorPane>
