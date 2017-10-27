@@ -25,14 +25,15 @@ public class Main extends Application {
 	private Pane mypane;
 	
 	/**
-	 * crea el Stage
+	 * modifica el método start de la clase principal
 	 */
 	
     @Override
     public void start(Stage stage) throws IOException {
     
     	/**
-    	 * carga la vista fxml y opcionalmente un controlador para inicializar algún componente 
+    	 * carga la vista fxml y opcionalmente un controlador para inicializar algún componente
+    	 * sobre el panel mypane colocamos la vista   
     	 */
     	
     	FXMLLoader loader = new FXMLLoader(
@@ -44,7 +45,7 @@ public class Main extends Application {
         mypane = (Pane) loader.load();
 
         /**
-         * titula y coloca la escena en el stage
+         * titula el stage y añade la escena al stage
          */
         stage.setTitle("Where's the squirrel?");
         stage.setScene(new Scene(mypane));
@@ -60,7 +61,7 @@ public class Main extends Application {
         private ImageView imageView;       
 
 /**
- * inicializa al igual que el constructor pero permite acceder al componente imageView ya creado en fxml
+ * la etiqueta FXML permite acceder al componente imageView ya creado en fxml
  */
     	@FXML
         public void initialize() {           
