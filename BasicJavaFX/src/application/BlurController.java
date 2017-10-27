@@ -23,8 +23,8 @@ public class BlurController {
 
         ellipse.centerXProperty().setValue(95);
         ellipse.centerYProperty().setValue(70);
-        ellipse.radiusXProperty().setValue(70);
-        ellipse.radiusYProperty().setValue(70);
+        ellipse.radiusXProperty().setValue(30);
+        ellipse.radiusYProperty().setValue(30);
         
 //        importing and modifying sizes
 //    	ellipse.radiusXProperty().setValue(imageView.getFitWidth()*0.1);
