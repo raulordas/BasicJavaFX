@@ -12,6 +12,6 @@
             <Image url="@blueforest.jpg" />
          </image>
     </ImageView>
-      <Button layoutX="389.0" layoutY="263.0" mnemonicParsing="false" onAction="#setblur" text="Go!" />
+      <Button layoutX="389.0" layoutY="263.0" mnemonicParsing="false" onAction="#handleClose" text="Go!" />
   </children>
 </AnchorPane>
