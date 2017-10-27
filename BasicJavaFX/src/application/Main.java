@@ -65,7 +65,7 @@ public class Main extends Application {
  */
     	@FXML
         public void initialize() {           
-                 imageView.setEffect(new GaussianBlur(10));
+                 imageView.setEffect(new GaussianBlur(5));
         }
     	
     }
