@@ -31,9 +31,9 @@ public class BlurController {
 //    	ellipse.radiusYProperty().setValue(imageView.getFitHeight()*0.17);
         
         imageView.setClip(ellipse);
-//
+
 ////apply a shadow effect.
-//        imageView.setEffect(new DropShadow(1200, Color.BLACK));
+//        imageView.setEffect(new DropShadow(120, Color.BLACK));
 
     }
 
