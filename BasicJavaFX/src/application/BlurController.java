@@ -21,10 +21,10 @@ public class BlurController {
         ellipse = new Ellipse();
 //        circle = new Circle((imageView.getFitWidth())*0.2);
 
-        ellipse.centerXProperty().setValue(95);
-        ellipse.centerYProperty().setValue(70);
-        ellipse.radiusXProperty().setValue(30);
-        ellipse.radiusYProperty().setValue(30);
+        ellipse.centerXProperty().setValue(120);
+        ellipse.centerYProperty().setValue(40);
+        ellipse.radiusXProperty().setValue(90);
+        ellipse.radiusYProperty().setValue(90);
         
 //        importing and modifying sizes
 //    	ellipse.radiusXProperty().setValue(imageView.getFitWidth()*0.1);
