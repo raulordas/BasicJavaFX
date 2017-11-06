@@ -1,24 +1,17 @@
 package application;
 	
+import java.io.IOException;
+
 import javafx.application.Application;
-import javafx.stage.Stage;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.BorderPane;
-import javafx.application.Application;
-import javafx.fxml.*;
-import javafx.scene.*;
-import javafx.scene.effect.DropShadow;
 import javafx.scene.effect.GaussianBlur;
-import javafx.scene.image.*;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Circle;
-import javafx.scene.shape.Ellipse;
-import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
-import java.io.IOException;
+
 
 public class Main extends Application {
 
