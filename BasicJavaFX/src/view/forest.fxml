@@ -5,13 +5,13 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="313.0" prefWidth="477.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
   <children>
-    <ImageView id="application.css" fx:id="imageView" fitHeight="224.0" fitWidth="400.0" layoutX="29.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 100;">
+    <ImageView id="application.css" fx:id="forestview" fitHeight="224.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
          <image>
             <Image url="@img/blueforest.jpg" />
          </image>
     </ImageView>
-      <Button layoutX="370.0" layoutY="240.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="63.0" styleClass="mybutton" stylesheets="@../application/application.css" />
+      <Button layoutX="370.0" layoutY="240.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="63.0" styleClass="mybutton" stylesheets="@../application/application.css" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="50.0" />
   </children>
 </AnchorPane>
