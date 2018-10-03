@@ -1,11 +1,8 @@
 package application;
 
 import javafx.fxml.FXML;
-import javafx.scene.effect.DropShadow;
 import javafx.scene.effect.GaussianBlur;
 import javafx.scene.image.ImageView;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Circle;
 import javafx.scene.shape.Ellipse;
 
 public class BlurController {
@@ -13,7 +10,6 @@ public class BlurController {
 	@FXML
     private ImageView imageView;   
 	private Ellipse ellipse;
-	private Circle circle;
 
 	
 	@FXML
@@ -33,7 +29,7 @@ public class BlurController {
         imageView.setClip(ellipse);
 
 ////apply a shadow effect.
-//        imageView.setEffect(new DropShadow(120, Color.BLACK));
+//        imageView.setEffect(new DropShadow(10, Color.BLACK));
 
     }
 
