@@ -30,7 +30,7 @@ public class Main extends Application {
 		// FXMLLoader
 		mypane = (AnchorPane) loader.load();
 		
-		// añade la escena al stage y la titula
+		// anyade la escena al stage y la titula
 		stage.setTitle("Where's the squirrel?");
 		stage.setScene(new Scene(mypane));
 		stage.show();
